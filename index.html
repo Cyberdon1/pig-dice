@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pig Dice</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Pig Dice</h1>
+      <form id="dice">
+
+        <p>WHich player are you?</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="player" value="1" checked>
+            Player 1
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="player" value="2">
+            Player 2
+          </label>
+        </div>
+
+        <button type="submit" class="btn btn-dark">Roll Dice!</button>
+      </form>
+
+      <div id="output">
+        <span id="answer"></span>
+      
+      </div>
+
+    </div>
+  </body>
+</html>
